@@ -34,7 +34,7 @@ A responsive comparison table built with HTML, CSS, and JavaScript.
 
 To run the project on your local machine:
 
-1. Clone the repository : git clone git@github.com:dostogircse171/solvyy-comparison-table.git
+1. Clone the repository : ```git clone git@github.com:dostogircse171/solvyy-comparison-table.git```
 
 2. Open the index.html file in your browser
 
