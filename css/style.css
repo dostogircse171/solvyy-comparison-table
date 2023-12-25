@@ -1,11 +1,10 @@
-
 * {
   box-sizing:border-box;
   padding:0;
   margin:0;
-   outline: 0;
+  outline: 0;
 }
-body { 
+body {
   font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size:14px;
   padding:14px;
@@ -40,18 +39,29 @@ button {
   font-size:14px;
   font-weight:bold;
   height:60px;
-  color:#999
+  color:#999 
 }
 li.active button {
   background:#F5F5F5;
   color:#000;
 }
-table { border-collapse:collapse; table-layout:fixed; width:100%; }
-th { background:#F5F5F5; display:none; }
-td, th {
-  height:53px
+table {
+  border-collapse:collapse;
+  table-layout:fixed;
+  width:100%;
 }
-td,th { border:1px solid #dddddd1f; padding:10px; empty-cells:show; }
+th {
+  background:#F5F5F5;
+  display:none;
+}
+td, th {
+  height:53px 
+}
+td,th {
+  border:1px solid #dddddd1f;
+  padding:10px;
+  empty-cells:show;
+}
 td,th {
   text-align:left;
 }
@@ -72,46 +82,54 @@ td.default {
   background:#F5F5F5;
   font-weight:bold;
 }
-.txt-l { font-size:28px; font-weight:bold; }
-.txt-top { position:relative; top:-9px; left:-2px; }
-.tick { font-size:18px; color:#fff; }
+.txt-l {
+  font-size:28px;
+  font-weight:bold;
+}
+.txt-top {
+  position:relative;
+  top:-9px;
+  left:-2px;
+}
+.tick {
+  font-size:18px;
+  color:#fff;
+}
 .hide {
   border:0;
   background:none;
 }
-
 @media (min-width: 640px) {
   ul {
-    display:none;
-  }
+      display:none;
+ }
   td,th {
-    display:table-cell !important;
-  }
+      display:table-cell !important;
+ }
   td,th {
-    width: 330px;
-  
-  }
+      width: 330px;
+ }
   td+td, th+th {
-    width: auto;
-  }
+      width: auto;
+ }
 }
 table#solvvy_comparison_table th {
-    color: #fff;
-    font-size: 20px;
-    background: #a470afe0;
+  color: #fff;
+  font-size: 20px;
+  background: #a470afe0;
 }
 table#solvvy_comparison_table th:first-child {
-    background: transparent;
+  background: transparent;
 }
 table#solvvy_comparison_table td {
-    background: rgb(164, 112, 175);
+  background: rgb(164, 112, 175);
 }
 table#solvvy_comparison_table td {
-    padding: 20px;
-    font-size: 15px;
+  padding: 20px;
+  font-size: 15px;
 }
 table#solvvy_comparison_table tr td:first-child {
-    background: #592C85;
-    color: #fff;
-    text-align: center;
+  background: #592C85;
+  color: #fff;
+  text-align: center;
 }
