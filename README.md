@@ -1,4 +1,4 @@
-# Responsive Comparison Table
+# Responsive Pricing/Comparison Table
 
 A responsive comparison table built with HTML, CSS, and JavaScript.
 
