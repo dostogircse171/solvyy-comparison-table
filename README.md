@@ -2,6 +2,8 @@
 
 A responsive comparison table built with HTML, CSS, and JavaScript.
 
+CodePen URL: [Demo][https://codepen.io/gd17/pen/poYvRYY]
+
 ## Table of Contents
 
 - [Features](#features)
